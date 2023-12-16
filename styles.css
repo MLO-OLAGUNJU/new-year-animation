@@ -113,7 +113,7 @@ body {
   border-radius: 50%;
   background-color: red;
   position: absolute;
-  top: 70%;
+  top: 88%;
   right: 0;
   margin-top: -285px;
   animation: balloon-animation 5s ease-in-out 1.5s forwards;
