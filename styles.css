@@ -56,7 +56,15 @@ body {
 
 .y2 {
   color: #fff;
-  animation: y1colorful 2s ease-in-out 4s forwards;
+  animation: y2colorful 2s ease-in-out 4s forwards;
+}
+@keyframes y2colorful {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #4cdde2;
+  }
 }
 
 .y3 {
