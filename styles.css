@@ -132,6 +132,7 @@ body {
   }
   100% {
     right: 400px;
+    color: yellow;
   }
 }
 
