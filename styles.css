@@ -185,6 +185,19 @@ body {
 }
 .firework {
   position: relative;
+  opacity: 0;
+  animation: show_fireworks 2s ease-in-out 1.5s forwards;
+}
+@keyframes show_fireworks {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .cracker {
@@ -257,7 +270,18 @@ body {
   transform: rotate(330deg) translateY(-15px);
 }
 
-#firework {
+#firework1 {
   left: 25%;
   top: 50%;
+  transform: scale(1);
+}
+#firework2 {
+  left: 50%;
+  top: 75%;
+  transform: scale(0.5);
+}
+#firework3 {
+  transform: scale(1.5);
+  left: 80%;
+  top: 15%;
 }
