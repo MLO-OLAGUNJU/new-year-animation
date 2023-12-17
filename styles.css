@@ -65,6 +65,7 @@ body {
 }
 .y4 {
   color: #fff;
+  animation: y1colorful 2s ease-in-out 4s forwards;
 }
 .old {
   color: #fff;
