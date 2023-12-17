@@ -26,7 +26,7 @@ body {
   position: absolute;
   top: 40%;
   opacity: 0;
-  animation: message 2s ease-in-out 9s forwards;
+  animation: message 1.5s ease-in-out 3s forwards;
 }
 
 @keyframes message {
@@ -42,6 +42,7 @@ body {
 
 .y1 {
   color: #fff;
+  animation: y1colorful 2s ease-in-out 6s forwards;
 }
 
 .y2 {
@@ -58,7 +59,7 @@ body {
   color: #fff;
   position: absolute;
   top: 0%;
-  animation: old-year 7s ease-in-out 9s forwards;
+  animation: old-year 1.5s ease-in-out 3s forwards;
   margin-left: -80px;
 }
 @keyframes old-year {
@@ -88,7 +89,7 @@ body {
 
 .new {
   position: absolute;
-  animation: new-year 10s ease-in-out 1s forwards;
+  animation: new-year 4s ease-in-out 1s forwards;
   right: -100px;
 }
 
@@ -116,7 +117,7 @@ body {
   top: 80%;
   right: 0;
   margin-top: -285px;
-  animation: balloon-animation 10s ease-in-out 1s forwards;
+  animation: balloon-animation 4s ease-in-out 1s forwards;
 }
 @keyframes balloon-animation {
   0% {
@@ -125,11 +126,13 @@ body {
   40% {
     right: 280px;
   }
-  90% {
+  50% {
     right: 410px;
+    top: 80%;
   }
   100% {
     right: 410px;
+    top: -200%;
   }
 }
 
