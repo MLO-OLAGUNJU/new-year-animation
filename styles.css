@@ -58,7 +58,7 @@ body {
   color: #fff;
   position: absolute;
   top: 0%;
-  animation: old-year 7s ease-in-out 7s forwards;
+  animation: old-year 7s ease-in-out 30s forwards;
   margin-left: -80px;
 }
 @keyframes old-year {
@@ -88,7 +88,7 @@ body {
 
 .new {
   position: absolute;
-  animation: new-year 10s ease-in-out 3s forwards;
+  animation: new-year 10s ease-in-out 1s forwards;
   right: -100px;
 }
 
