@@ -189,4 +189,21 @@ body {
 
 .cracker {
   position: absolute;
+  width: 4px;
+  height: 80px;
+}
+.cracker::before {
+  content: "";
+  background-color: gold;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.cracker:nth-child(1) {
+  transform: rotate(0deg) translateY(-15px);
+}
+.cracker:nth-child(2) {
+  transform: rotate(0deg) translateY(-15px);
 }
