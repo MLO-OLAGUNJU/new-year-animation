@@ -191,6 +191,8 @@ body {
   position: absolute;
   width: 4px;
   height: 80px;
+  transform-origin: 50% 100%;
+  overflow: hidden;
 }
 .cracker::before {
   content: "";
@@ -199,8 +201,25 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  animation: fire 2s ease-in-out infinite;
 }
-
+@keyframes fire {
+  0% {
+    top: 100%;
+  }
+  25% {
+    top: 50%;
+  }
+  50% {
+    top: -25%;
+  }
+  75% {
+    top: -50%;
+  }
+  100% {
+    top: -50%;
+  }
+}
 .cracker:nth-child(1) {
   transform: rotate(0deg) translateY(-15px);
 }
@@ -236,4 +255,9 @@ body {
 }
 .cracker:nth-child(12) {
   transform: rotate(330deg) translateY(-15px);
+}
+
+#firework {
+  left: 25%;
+  top: 50%;
 }
