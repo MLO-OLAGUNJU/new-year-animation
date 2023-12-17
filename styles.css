@@ -26,7 +26,7 @@ body {
   position: absolute;
   top: 40%;
   opacity: 0;
-  animation: message 2s ease-in-out 6s forwards;
+  animation: message 2s ease-in-out 9s forwards;
 }
 
 @keyframes message {
@@ -58,7 +58,7 @@ body {
   color: #fff;
   position: absolute;
   top: 0%;
-  animation: old-year 7s ease-in-out 30s forwards;
+  animation: old-year 7s ease-in-out 9s forwards;
   margin-left: -80px;
 }
 @keyframes old-year {
@@ -126,10 +126,10 @@ body {
     right: 280px;
   }
   90% {
-    right: 380px;
+    right: 410px;
   }
   100% {
-    right: 500px;
+    right: 510px;
   }
 }
 
