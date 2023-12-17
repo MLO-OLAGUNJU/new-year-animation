@@ -86,7 +86,7 @@ body {
   color: #fff;
   position: absolute;
   top: 0%;
-  animation: old-year 1.5s ease-in-out 3s forwards;
+  animation: old-year 2s ease-in-out 3s forwards;
   margin-left: -80px;
 }
 @keyframes old-year {
@@ -142,7 +142,7 @@ body {
   border-radius: 50%;
   background-color: red;
   position: absolute;
-  top: 80%;
+  top: 50%;
   right: 0;
   margin-top: -285px;
   animation: balloon-animation 4s ease-in-out 1s forwards;
@@ -156,7 +156,7 @@ body {
   }
   50% {
     right: 410px;
-    top: 80%;
+    top: 50%;
   }
   100% {
     right: 410px;
@@ -182,4 +182,11 @@ body {
   left: 50%;
   top: 100%;
   margin-left: -10px;
+}
+.firework {
+  position: relative;
+}
+
+.cracker {
+  position: absolute;
 }
