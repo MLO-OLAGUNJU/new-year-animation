@@ -72,7 +72,7 @@ body {
 }
 .year {
   position: absolute;
-  top: 350px;
+  top: 300px;
   width: 100%;
   text-align: center;
 }
@@ -113,7 +113,7 @@ body {
   border-radius: 50%;
   background-color: red;
   position: absolute;
-  top: 88%;
+  top: 80%;
   right: 0;
   margin-top: -285px;
   animation: balloon-animation 5s ease-in-out 1.5s forwards;
