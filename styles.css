@@ -58,7 +58,7 @@ body {
   color: #fff;
   position: absolute;
   top: 0%;
-  animation: old-year 2s ease-in-out 5s forwards;
+  animation: old-year 7s ease-in-out 7s forwards;
   margin-left: -80px;
 }
 @keyframes old-year {
@@ -88,7 +88,7 @@ body {
 
 .new {
   position: absolute;
-  animation: new-year 5s ease-in-out 1.5s forwards;
+  animation: new-year 10s ease-in-out 3s forwards;
   right: -100px;
 }
 
@@ -116,7 +116,7 @@ body {
   top: 80%;
   right: 0;
   margin-top: -285px;
-  animation: balloon-animation 5s ease-in-out 1.5s forwards;
+  animation: balloon-animation 10s ease-in-out 1s forwards;
 }
 @keyframes balloon-animation {
   0% {
@@ -126,10 +126,10 @@ body {
     right: 280px;
   }
   90% {
-    right: 280px;
+    right: 380px;
   }
   100% {
-    right: 380px;
+    right: 500px;
   }
 }
 
